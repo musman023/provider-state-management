@@ -18,7 +18,7 @@ class _ExampleOneState extends State<ExampleOne> {
         // elevation: 0,
         backgroundColor: Colors.indigoAccent,
         title: const Text(
-          "Provider State Management",
+          "Slider with Provider",
           style: TextStyle(color: Colors.white),
         ),
       ),
