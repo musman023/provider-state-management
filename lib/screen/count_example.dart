@@ -18,7 +18,7 @@ class _CountExampleState extends State<CountExample> {
         centerTitle: true,
         // elevation: 0,
         backgroundColor: Colors.indigoAccent,
-        title: Text(
+        title: const Text(
           "Provider State Management",
           style: TextStyle(color: Colors.white),
         ),
@@ -28,7 +28,7 @@ class _CountExampleState extends State<CountExample> {
           builder: (BuildContext context, value, child) {
             return Text(
               value.count.toString(),
-              style: TextStyle(fontSize: 50),
+              style: const TextStyle(fontSize: 50),
             );
           },
         ),
