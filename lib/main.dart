@@ -4,7 +4,7 @@ import 'package:provider_tutorial/provider/count_provider.dart';
 import 'package:provider_tutorial/provider/e1_provider.dart';
 import 'package:provider_tutorial/provider/favourite_provider.dart';
 import 'package:provider_tutorial/provider/theme_changer.dart';
-import 'package:provider_tutorial/screen/dark_theme.dart';
+import 'package:provider_tutorial/screen/notify_listener.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                 primarySwatch: Colors.blue,
               ),
               darkTheme: ThemeData(brightness: Brightness.dark),
-              home: const DarkThemeScreen(),
+              home: NotifyListenerScreen(),
             );
           },
         ));
